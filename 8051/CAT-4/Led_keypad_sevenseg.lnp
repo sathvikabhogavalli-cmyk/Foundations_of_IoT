@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\led_keypad_sevenseg.obj" 
+TO ".\Objects\Led_keypad_sevenseg" 
+PRINT(".\Listings\Led_keypad_sevenseg.m51") RAMSIZE(256) 
