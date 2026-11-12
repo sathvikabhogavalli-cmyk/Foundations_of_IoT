@@ -237,3 +237,6 @@ The UART echo application demonstrates bidirectional communication by receiving 
 The experiment also introduces interrupt-driven UART reception and RX ring-buffer handling for embedded serial communication applications without using Arduino APIs, HAL libraries or RTOS services.
 
 ## CIRCUIT DIAGRAM
+<img width="3508" height="2481" alt="circuit" src="https://github.com/user-attachments/assets/dd1e5655-81cc-4ca5-910e-ad2f73f9677d" />
+
+<img width="3508" height="2481" alt="circuit" src="https://github.com/user-attachments/assets/66df96fd-46b7-453d-b0b3-6aff44e77931" />
