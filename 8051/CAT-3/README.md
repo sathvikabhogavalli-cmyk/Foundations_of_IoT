@@ -161,5 +161,5 @@ Switch debouncing improves the reliability of the user interface by preventing m
 The experiment illustrates how a simple push-button interface can control multiple operating modes in an embedded IoT sensor node without using Arduino APIs, HAL libraries or RTOS services.
 
 ## CIRCUIT DIAGRAM
+<img width="1491" height="1055" alt="AT89S52 LED and Switch Schematic (1)" src="https://github.com/user-attachments/assets/4a21eefe-85b6-4dc6-89b6-b18976905af4" />
 
-![Circuit Diagram](circuit.png)
