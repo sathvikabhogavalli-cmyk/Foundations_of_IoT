@@ -100,4 +100,4 @@ It provides an understanding of DDRAM addressing, string display, numerical valu
 
 ## CIRCUIT DIAGRAM
 
-![Circuit Diagram](circuit.png)
+<img width="1774" height="887" alt="1cb5d2e4-443d-4381-9b70-8e708b2d7d5e" src="https://github.com/user-attachments/assets/ab1b935d-38b7-48e7-90e4-e338b076b8a1" />
