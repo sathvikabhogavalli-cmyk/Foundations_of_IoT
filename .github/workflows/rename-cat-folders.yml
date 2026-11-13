@@ -1,0 +1,62 @@
+
+name: Rename CAT folders
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Rename CAT folders
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+          import subprocess
+
+          root = Path(".")
+          changes = []
+
+          for folder in root.iterdir():
+              if not folder.is_dir():
+                  continue
+
+              match = re.fullmatch(r"CAT-(\d+)", folder.name, re.IGNORECASE)
+              if not match:
+                  continue
+
+              new_name = f"CAT{int(match.group(1))}"
+              target = root / new_name
+
+              if target.exists():
+                  raise SystemExit(f"Target already exists: {target}")
+
+              changes.append((folder.name, new_name))
+
+          if not changes:
+              print("No matching folders found.")
+          else:
+              for old, new in changes:
+                  subprocess.run(["git", "mv", old, new], check=True)
+                  print(f"Renamed: {old} -> {new}")
+          PY
+
+      - name: Create pull request for review
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Rename CAT folders"
+          branch: automation/rename-cat-folders
+          delete-branch: true
+          title: "Rename CAT folders to CAT-number format"
+          body: |
+            Automated folder renaming only.
+            Review all changed file paths before merging.
