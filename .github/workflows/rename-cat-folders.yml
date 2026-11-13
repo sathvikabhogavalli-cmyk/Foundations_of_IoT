@@ -26,11 +26,11 @@ jobs:
           root = Path(".")
           changes = []
 
-          for folder in root.iterdir():
+          for folder in sorted(root.rglob("*"), key=lambda p: len(p.parts), reverse=True):
               if not folder.is_dir():
                   continue
 
-              match = re.fullmatch(r"CAT-(\d+)", folder.name, re.IGNORECASE)
+           match = re.fullmatch(r"CAT-(\d+)", folder.name, re.IGNORECASE)
               if not match:
                   continue
 
