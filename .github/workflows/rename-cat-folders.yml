@@ -11,6 +11,7 @@ permissions:
 jobs:
   rename:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,28 +27,46 @@ jobs:
           root = Path(".")
           changes = []
 
-          for folder in sorted(root.rglob("*"), key=lambda p: len(p.parts), reverse=True):
+          for folder in root.rglob("*"):
               if not folder.is_dir():
                   continue
 
-           match = re.fullmatch(r"CAT-(\d+)", folder.name, re.IGNORECASE)
+              match = re.fullmatch(
+                  r"CAT\s*-\s*(\d+)",
+                  folder.name,
+                  re.IGNORECASE
+              )
+
               if not match:
                   continue
 
-              new_name = f"CAT{int(match.group(1))}"
-              target = root / new_name
+              number = int(match.group(1))
+              if not 1 <= number <= 14:
+                  continue
+
+              target = folder.with_name(f"CAT{number}")
 
               if target.exists():
-                  raise SystemExit(f"Target already exists: {target}")
+                  raise SystemExit(
+                      f"Target already exists: {target}"
+                  )
 
-              changes.append((folder.name, new_name))
+              changes.append((folder, target))
+
+          changes.sort(
+              key=lambda pair: len(pair[0].parts),
+              reverse=True
+          )
 
           if not changes:
-              print("No matching folders found.")
-          else:
-              for old, new in changes:
-                  subprocess.run(["git", "mv", old, new], check=True)
-                  print(f"Renamed: {old} -> {new}")
+              print("No matching CAT folders found.")
+
+          for old, new in changes:
+              subprocess.run(
+                  ["git", "mv", str(old), str(new)],
+                  check=True
+              )
+              print(f"Renamed: {old} -> {new}")
           PY
 
       - name: Create pull request for review
@@ -58,5 +77,6 @@ jobs:
           delete-branch: true
           title: "Rename CAT folders to CAT-number format"
           body: |
-            Automated folder renaming only.
-            Review all changed file paths before merging.
+            Renames CAT-1 through CAT-14 to CAT1 through CAT14.
+            All existing file contents should remain unchanged.
+            Review the changes before merging.
