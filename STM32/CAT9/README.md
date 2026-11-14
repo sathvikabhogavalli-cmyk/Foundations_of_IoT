@@ -207,4 +207,5 @@ The experiment illustrates the development of a basic UART-based embedded comman
 
 ## CIRCUIT DIAGRAM
 
-![Circuit Diagram](circuit.png)
+<img width="3508" height="2481" alt="circuit" src="https://github.com/user-attachments/assets/cd063422-d5b3-40fb-8293-929a150426ab" />
+
