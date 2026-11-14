@@ -70,7 +70,4 @@ The application demonstrates GPIO input handling, LED output control, button pre
 
 ## Circuit Diagram
 The experiment uses the on-board LED connected to PA5 and the on-board user push button connected to PC13.
-
-No external button or LED circuit is required.
-
-Refer to `circuit.png` for the hardware connection diagram.
+<img width="1536" height="1024" alt="c3a75220-a311-4d8a-b312-bc23ebb23c62" src="https://github.com/user-attachments/assets/09818329-4a9b-4064-a264-036736900340" />
