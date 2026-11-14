@@ -117,5 +117,5 @@ This experiment demonstrates basic digital output control using the 8051 microco
 Software delays are simple to implement but are blocking and are not suitable for applications requiring precise timing or simultaneous tasks.
 
 ## CIRCUIT DIAGRAM
-
+![706240672-bf0b4d2b-1c53-4159-8964-d3fd61e49126](706240672-bf0b4d2b-1c53-4159-8964-d3fd61e49126.png)
 
