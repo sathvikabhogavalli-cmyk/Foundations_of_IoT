@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\transmit.obj" 
+TO ".\Objects\Task A(transmit)" 
+PRINT(".\Listings\Task A(transmit).m51") RAMSIZE(256) 

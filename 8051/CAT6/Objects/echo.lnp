@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\echo.obj" 
+TO ".\Objects\echo" 
+PRINT(".\Listings\echo.m51") RAMSIZE(256) 
