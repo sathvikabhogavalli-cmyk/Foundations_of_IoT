@@ -351,8 +351,10 @@ It provides an understanding of sensor initialization, register-level communicat
 
 The Bosch Sensortec BME280 Sensor API enables compensated temperature, pressure and humidity measurements using the sensor calibration parameters.
 
+
 The experiment also introduces UART-based sensor monitoring and JSON representation of environmental measurements for HTTP-based IoT applications.
 
 ## CIRCUIT DIAGRAM
 
-![Circuit Diagram](circuit.png)
+<img width="1536" height="1024" alt="e891bd90-e4de-42b2-bd2f-fd236c46ad69" src="https://github.com/user-attachments/assets/98158e25-f281-4a73-9303-d578643fc896" />
+<img width="1536" height="1024" alt="b16bdd27-7051-4573-97f3-d11a32f5be97" src="https://github.com/user-attachments/assets/56d697fb-ab4c-4d92-9a14-763b53096ba5" />
