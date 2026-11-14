@@ -194,4 +194,5 @@ The implementation shows how a single push button can control multiple operating
 
 ## CIRCUIT DIAGRAM
 
-![Circuit Diagram](circuit.png)
+<img width="1491" height="1055" alt="a6a7eb2a-e30d-4bfd-aacd-6451b756278a" src="https://github.com/user-attachments/assets/41ace0ac-b49f-4d62-8d12-6af1b167f4b6" />
+
