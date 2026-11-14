@@ -74,4 +74,5 @@ Observe and record how each sequence appears in PuTTY.
 This experiment demonstrates UART initialization, serial character transmission, character reception, and echo communication using STM32 HAL libraries. It also illustrates the role of carriage return and line feed in terminal output formatting.
 
 ## CIRCUIT DIAGRAM
-![Circuit Diagram](circuit.png)
+![706241868-cd063422-d5b3-40fb-8293-929a150426ab](706241868-cd063422-d5b3-40fb-8293-929a150426ab.png)
+
