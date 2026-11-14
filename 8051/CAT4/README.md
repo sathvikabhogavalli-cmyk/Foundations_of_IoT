@@ -1,3 +1,4 @@
+
 # CONTINUOUS LAB EVALUATION – 4
 
 **COURSE:** Fundamentals of Internet of Things + Lab  
@@ -220,5 +221,4 @@ This experiment demonstrates matrix keypad scanning, digital input detection, GP
 It also illustrates how multiple embedded operations can be controlled through a single keypad interface.
 
 ## CIRCUIT DIAGRAM
-
-![Circuit Diagram](circuit.png)
+<img width="996" height="665" alt="608d7ee7-5dee-49c2-b749-49c437762cc9" src="https://github.com/user-attachments/assets/ed44d29f-1d8b-4396-abe5-7934b9ed8cbd" />
