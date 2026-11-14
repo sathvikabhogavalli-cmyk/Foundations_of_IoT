@@ -53,6 +53,4 @@ A fixed software delay determines the blinking interval. Continuous toggling ver
 The STM32 GPIO output application is designed to blink the on-board LED at a fixed interval, demonstrating GPIO output control and basic hardware bring-up.
 
 ## Circuit Diagram
-The experiment uses the on-board LED connected to PA5. No external LED circuit is required.
-
-Refer to `circuit.png` for the hardware connection diagram.
+<img width="1536" height="1024" alt="c3a75220-a311-4d8a-b312-bc23ebb23c62" src="https://github.com/user-attachments/assets/35a1cea2-d405-4f07-a89c-c9b4911e9173" />
