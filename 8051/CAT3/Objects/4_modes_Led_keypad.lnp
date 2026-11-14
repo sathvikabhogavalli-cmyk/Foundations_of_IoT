@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\4_modes_led_keypad.obj" 
+TO ".\Objects\4_modes_Led_keypad" 
+PRINT(".\Listings\4_modes_Led_keypad.m51") RAMSIZE(256) 
