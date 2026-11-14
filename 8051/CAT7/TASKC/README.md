@@ -171,4 +171,4 @@ The experiment illustrates the development of a basic embedded human-machine int
 
 ## CIRCUIT DIAGRAM
 
-<img width="1774" height="887" alt="d3144402-5ebb-4372-854c-84ffc31a945b" src="https://github.com/user-attachments/assets/4355db02-a39d-4972-94c3-cec14d1add92" />
+![703982116-4355db02-a39d-4972-94c3-cec14d1add92](703982116-4355db02-a39d-4972-94c3-cec14d1add92.png)
