@@ -269,5 +269,5 @@ Task 9C demonstrates Wi-Fi station configuration, connection to an access point 
 The experiment illustrates the use of STM32 HAL libraries and UART communication to interface a microcontroller with an external Wi-Fi modem for IoT applications.
 
 ## CIRCUIT DIAGRAM
+<img width="1491" height="1055" alt="461a8434-1795-4235-9c36-37ec05d9859e" src="https://github.com/user-attachments/assets/98652b5f-e5d4-47c2-ad06-0a5a12e5f0db" />
 
-![Circuit Diagram](circuit.png)
