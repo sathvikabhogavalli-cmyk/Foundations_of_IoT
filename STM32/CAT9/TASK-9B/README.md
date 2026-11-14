@@ -1,4 +1,4 @@
-<img width="1491" height="1055" alt="706245148-93afb330-7387-4163-b6dc-59b418d52124" src="https://github.com/user-attachments/assets/0e935d0b-2f8b-49b2-9e0b-5972082f604e" /><img width="1491" height="1055" alt="706245148-93afb330-7387-4163-b6dc-59b418d52124" src="https://github.com/user-attachments/assets/4b5dbe8a-e528-4622-b76f-676329f49801" /># CONTINUOUS LAB EVALUATION – 9
+CONTINUOUS LAB EVALUATION – 9
 
 **DATE:** 28/09/2026  
 **COURSE:** 25CS2741 – Fundamentals of Internet of Things + Lab  
