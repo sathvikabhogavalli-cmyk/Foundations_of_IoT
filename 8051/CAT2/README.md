@@ -118,3 +118,4 @@ Software delays are simple to implement but are blocking and are not suitable fo
 
 ## CIRCUIT DIAGRAM
 
+<img width="1752" height="897" alt="a9452275-22c1-4eab-873b-5ba74e7aec2b" src="https://github.com/user-attachments/assets/bf0b4d2b-1c53-4159-8964-d3fd61e49126" />
