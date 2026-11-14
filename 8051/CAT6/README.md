@@ -324,7 +324,4 @@ Interrupt-driven reception allows received data to be collected independently of
 
 ## CIRCUIT DIAGRAM
 
-<img width="3508" height="2481" alt="circuit" src="https://github.com/user-attachments/assets/fb8812fe-a720-4018-87d2-
-  54a6e75dd8d1" />
-  <img width="3508" height="2481" alt="circuit" src="https://github.com/user-attachments/assets/260bd869-09a7-4f81-978d-97eafb6e511e" />
-
+![706233847-260bd869-09a7-4f81-978d-97eafb6e511e](706233847-260bd869-09a7-4f81-978d-97eafb6e511e.png)
