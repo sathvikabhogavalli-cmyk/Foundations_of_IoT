@@ -69,7 +69,7 @@ To develop a UART-based command interface that receives text commands from a PC 
 This experiment demonstrates string-based UART communication and command interpretation using STM32 HAL libraries. It shows how text commands received from a serial terminal can control a microcontroller peripheral.
 
 ## CIRCUIT DIAGRAM
-![ 706245148-93afb330-7387-4163-b6dc-59b418d52124](706245148-93afb330-7387-4163-b6dc-59b418d52124.png)
+![706245148-93afb330-7387-4163-b6dc-59b418d52124](706245148-93afb330-7387-4163-b6dc-59b418d52124.png)
 
 
 
