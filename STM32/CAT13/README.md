@@ -392,5 +392,5 @@ Node-RED provides a platform for receiving and visualizing the published sensor 
 The experiment illustrates the development of an STM32-based IoT environmental monitoring application using MQTT and Node-RED.
 
 ## CIRCUIT DIAGRAM
+<img width="3508" height="2481" alt="circuit" src="https://github.com/user-attachments/assets/61cc4e9e-b864-4cd9-8d45-523946a9a5c2" />
 
-![Circuit Diagram](circuit.png)
