@@ -231,7 +231,6 @@ Unlike blocking software delay loops, timer interrupts allow the main program to
 The accuracy of the output timing depends on the oscillator frequency, timer configuration, and interrupt execution overhead.
 
 ## CIRCUIT DIAGRAM
+![8051_CAT5B_LED_PWM_Fading](8051_CAT5B_LED_PWM_Fading.png)
 
-<img width="1491" height="1055" alt="b4653e1a-8462-4040-aeaa-9e9fb6073f09" src="https://github.com/user-attachments/assets/49a29c29-0b47-46a9-bab9-a68353b6a84b" />
-<img width="1491" height="1055" alt="AT89S52 Software PWM LED Fading Schematic" src="https://github.com/user-attachments/assets/855dc7ac-04e1-491c-92bd-666031f54772" />
 
