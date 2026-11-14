@@ -91,3 +91,4 @@ The STM32F401RE successfully detects push button presses through GPIO pin PC13 a
 Each valid button press toggles the LED between ON and OFF states. The debounce mechanism prevents multiple unwanted toggles caused by mechanical switch bouncing.
 
 This experiment demonstrates GPIO input/output configuration, edge detection, push button interfacing, and software debouncing using STM32 HAL functions.
+![706250220-56d697fb-ab4c-4d92-9a14-763b53096ba5](706250220-56d697fb-ab4c-4d92-9a14-763b53096ba5.png)
