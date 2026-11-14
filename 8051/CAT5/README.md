@@ -232,5 +232,5 @@ The accuracy of the output timing depends on the oscillator frequency, timer con
 
 ## CIRCUIT DIAGRAM
 ![8051_CAT5B_LED_PWM_Fading](8051_CAT5B_LED_PWM_Fading.png)
-
+![8051_LED_Switch_Reference](8051_LED_Switch_Reference.png)
 
