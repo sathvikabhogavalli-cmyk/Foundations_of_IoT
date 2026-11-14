@@ -1,4 +1,4 @@
-# CONTINUOUS LAB EVALUATION – 9
+<img width="1491" height="1055" alt="706245148-93afb330-7387-4163-b6dc-59b418d52124" src="https://github.com/user-attachments/assets/0e935d0b-2f8b-49b2-9e0b-5972082f604e" /><img width="1491" height="1055" alt="706245148-93afb330-7387-4163-b6dc-59b418d52124" src="https://github.com/user-attachments/assets/4b5dbe8a-e528-4622-b76f-676329f49801" /># CONTINUOUS LAB EVALUATION – 9
 
 **DATE:** 28/09/2026  
 **COURSE:** 25CS2741 – Fundamentals of Internet of Things + Lab  
@@ -69,5 +69,8 @@ To develop a UART-based command interface that receives text commands from a PC 
 This experiment demonstrates string-based UART communication and command interpretation using STM32 HAL libraries. It shows how text commands received from a serial terminal can control a microcontroller peripheral.
 
 ## CIRCUIT DIAGRAM
-<img width="1491" height="1055" alt="f9094e9d-8045-4441-9280-f93113a5b637" src="https://github.com/user-attachments/assets/93afb330-7387-4163-b6dc-59b418d52124" />
+![ 706245148-93afb330-7387-4163-b6dc-59b418d52124](706245148-93afb330-7387-4163-b6dc-59b418d52124.png)
+
+
+
 
