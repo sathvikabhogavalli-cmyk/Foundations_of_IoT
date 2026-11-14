@@ -195,4 +195,4 @@ The experiment provides practical understanding of STM32 GPIO programming, user-
 
 ## CIRCUIT DIAGRAM
 
-![706248575-28e1d7d7-eecc-4f6e-9358-a32b2e17c4c1](706248575-28e1d7d7-eecc-4f6e-9358-a32b2e17c4c1.png)
+
