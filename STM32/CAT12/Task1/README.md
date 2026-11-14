@@ -85,3 +85,4 @@ The STM32F401RE successfully controls the onboard LED connected to GPIO pin PA5 
 The LED produces a repeating blinking pattern consisting of short ON/OFF intervals followed by a longer ON duration.
 
 This experiment demonstrates GPIO initialization, digital output control, and time-based LED sequencing using STM32 HAL functions.
+![706250344-98158e25-f281-4a73-9303-d578643fc896](706250344-98158e25-f281-4a73-9303-d578643fc896.png)
