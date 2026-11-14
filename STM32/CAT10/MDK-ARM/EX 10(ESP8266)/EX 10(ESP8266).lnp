@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"ex 10(esp8266)\startup_stm32f103xb.o"
+"ex 10(esp8266)\main.o"
+"ex 10(esp8266)\stm32f1xx_it.o"
+"ex 10(esp8266)\stm32f1xx_hal_msp.o"
+"ex 10(esp8266)\stm32f1xx_hal_gpio_ex.o"
+"ex 10(esp8266)\stm32f1xx_hal_uart.o"
+"ex 10(esp8266)\stm32f1xx_hal.o"
+"ex 10(esp8266)\stm32f1xx_hal_rcc.o"
+"ex 10(esp8266)\stm32f1xx_hal_rcc_ex.o"
+"ex 10(esp8266)\stm32f1xx_hal_gpio.o"
+"ex 10(esp8266)\stm32f1xx_hal_dma.o"
+"ex 10(esp8266)\stm32f1xx_hal_cortex.o"
+"ex 10(esp8266)\stm32f1xx_hal_pwr.o"
+"ex 10(esp8266)\stm32f1xx_hal_flash.o"
+"ex 10(esp8266)\stm32f1xx_hal_flash_ex.o"
+"ex 10(esp8266)\stm32f1xx_hal_exti.o"
+"ex 10(esp8266)\system_stm32f1xx.o"
+--strict --scatter "EX 10(ESP8266)\EX 10(ESP8266).sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EX 10(ESP8266).map" -o "EX 10(ESP8266)\EX 10(ESP8266).axf"
