@@ -109,4 +109,6 @@ It provides an understanding of LCD initialization, command and data transmissio
 
 ## CIRCUIT DIAGRAM
 
-<img width="1774" height="887" alt="0663e697-1730-466b-bef7-063e1f98d7d6" src="https://github.com/user-attachments/assets/5361c024-1c99-41b7-ba4d-8482439992d1" />
+![703974770-5361c024-1c99-41b7-ba4d-8482439992d1](703974770-5361c024-1c99-41b7-ba4d-8482439992d1.png
+)
+
