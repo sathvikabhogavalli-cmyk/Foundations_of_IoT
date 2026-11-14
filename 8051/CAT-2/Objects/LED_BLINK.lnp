@@ -1,4 +1,0 @@
-".\Objects\STARTUP.obj",
-".\Objects\ledBlink.obj" 
-TO ".\Objects\LED_BLINK" 
-PRINT(".\Listings\LED_BLINK.m51") RAMSIZE(256) 
