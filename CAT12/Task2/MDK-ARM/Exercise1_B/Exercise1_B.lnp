@@ -1,0 +1,23 @@
+--cpu=Cortex-M4.fp.sp
+"exercise1_b\startup_stm32f401xe.o"
+"exercise1_b\main.o"
+"exercise1_b\stm32f4xx_it.o"
+"exercise1_b\stm32f4xx_hal_msp.o"
+"exercise1_b\stm32f4xx_hal_rcc.o"
+"exercise1_b\stm32f4xx_hal_rcc_ex.o"
+"exercise1_b\stm32f4xx_hal_flash.o"
+"exercise1_b\stm32f4xx_hal_flash_ex.o"
+"exercise1_b\stm32f4xx_hal_flash_ramfunc.o"
+"exercise1_b\stm32f4xx_hal_gpio.o"
+"exercise1_b\stm32f4xx_hal_dma_ex.o"
+"exercise1_b\stm32f4xx_hal_dma.o"
+"exercise1_b\stm32f4xx_hal_pwr.o"
+"exercise1_b\stm32f4xx_hal_pwr_ex.o"
+"exercise1_b\stm32f4xx_hal_cortex.o"
+"exercise1_b\stm32f4xx_hal.o"
+"exercise1_b\stm32f4xx_hal_exti.o"
+"exercise1_b\system_stm32f4xx.o"
+--strict --scatter "Exercise1_B\Exercise1_B.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Exercise1_B.map" -o Exercise1_B\Exercise1_B.axf

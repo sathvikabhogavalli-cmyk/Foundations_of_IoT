@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"exercise91_b\startup_stm32f103xb.o"
+"exercise91_b\main.o"
+"exercise91_b\stm32f1xx_it.o"
+"exercise91_b\stm32f1xx_hal_msp.o"
+"exercise91_b\stm32f1xx_hal_gpio_ex.o"
+"exercise91_b\stm32f1xx_hal_uart.o"
+"exercise91_b\stm32f1xx_hal.o"
+"exercise91_b\stm32f1xx_hal_rcc.o"
+"exercise91_b\stm32f1xx_hal_rcc_ex.o"
+"exercise91_b\stm32f1xx_hal_gpio.o"
+"exercise91_b\stm32f1xx_hal_dma.o"
+"exercise91_b\stm32f1xx_hal_cortex.o"
+"exercise91_b\stm32f1xx_hal_pwr.o"
+"exercise91_b\stm32f1xx_hal_flash.o"
+"exercise91_b\stm32f1xx_hal_flash_ex.o"
+"exercise91_b\stm32f1xx_hal_exti.o"
+"exercise91_b\system_stm32f1xx.o"
+--strict --scatter "Exercise91_B\Exercise91_B.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Exercise91_B.map" -o Exercise91_B\Exercise91_B.axf
